@@ -1,0 +1,519 @@
+body {
+    min-height: 400vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #08003C;
+    padding: 0;
+    position: relative;
+}
+.container{
+    width: 90%;
+
+}
+.row{
+    width: 100%;
+}
+.background-images {
+    background-size: cover;
+    background-position: center;
+    animation: fade-background 30s linear infinite;
+    height: 700px;
+    width: 100%;
+}
+
+@keyframes fade-background {
+    0%, 100% {
+        background-image: url("../images/first-bg.jpeg");
+        opacity: 1;
+    }
+    23% {
+        background-image: url("../images/second-bg.jpg");
+        opacity: 1;
+    }
+    33% {
+        background-image: url("../images/fourth.jpg");
+        opacity: 1;
+    }
+    44% {
+        background-image: url("../images/fourth.jpeg");
+        opacity: 1;
+    }
+    66% {
+        background-image: url("../images/third-bg.jpg");
+        opacity: 1;
+    }
+}
+
+.logo {
+    height: 50px;
+}
+
+nav {
+    position: relative;
+}
+
+.navs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.navs li {
+    margin-left: 50px;
+}
+
+.navs a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+.checkbtn {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
+
+.closebtn {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.gradient{
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.gradient i{
+    color: white;
+    font-weight: 900px;
+}
+button a.text-completed::after,.text-completed::before{
+    content: "SPONSOR";
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    line-height:3px;
+    left: 0;
+    width: 100%;
+    text-transform: capitalize;
+    transition: all 400ms;
+}
+button .text-completed::before{
+    content: "REGISTER";
+    left: 190px;
+    background: linear-gradient(to right #df2771,#fb4c37);
+}
+button a.text-completed:hover::after{
+    left:-130px;
+    background: linear-gradient(to right #fb4c37, #df2771);
+}
+button .text-completed:hover::before{
+    left: 0;
+}
+
+button.first-button{
+    height: 50px;
+    width: 60%;
+    display: flex;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    position: relative;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fb4c37;
+}
+.writeups h4{
+    color: white;
+}
+h2{
+    color: white;
+    font-size: 120px;
+    font-weight: bold;
+    margin: 0;
+}
+.writeups p{
+    color: white;
+}
+.ticket{
+    border: 2px solid #08003C;
+    background-color: transparent;
+    padding: 13px 15px ;
+
+}
+.ticket a:hover{
+    color: #08003C;
+
+}
+.ticket-video a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.ticket-video{
+    justify-content: center;
+    
+}
+.ticket-video div i{
+    color: white;
+}
+.play-icon{
+    height: 30px;
+    width: 30px;
+    border: 2px solid #08003C;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.play-icon  a i:hover{
+    color: #08003C;
+}
+.info-box{
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+}
+.counter{
+    font-size: 50px;
+    color: #EE2F5B;
+    margin: 0;
+}
+.info-box span{
+    vertical-align: super;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+
+}
+.counter-info{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin: 0;
+}
+.smfest-info{
+    margin-top: 90px;
+}
+.first-section{
+    margin-top: 200px;
+}
+.first-section h3{
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+}
+.first-section p{
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+}
+ #about-text{
+    color: #EE2F5B;
+    font-weight: 900;
+}
+button.read-more{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    margin-top: px;
+    position: relative;
+    background-color: transparent;
+    border: 2px  solid white;
+    margin-top: 50px;
+}
+.read-more a{
+    text-decoration: none;
+    color: white;
+    font-family: 900;
+}
+
+.side-pic-container{
+    padding: 0 0 0 3%;
+    position: relative;
+}
+.first-side-image-container {
+    border: 3px solid #fb4c37;
+    height: 600px;
+    border-radius: 2%;
+    
+}
+.first-side-image-container div img{
+    margin-left: -7%;
+    padding-top: 8%;
+    height: 650px;
+    width: 800px
+    
+}
+
+.years-of-execellence{
+    background-color: black;
+    border: 1px solid white;
+    width: 250px ;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -8%;
+    bottom: 7%;
+}
+.years-of-execellence p{
+    font-size: 22px;
+}
+.years-of-execellence h3 span{
+    font-size: 18px;
+    vertical-align: super;
+    color: #fb4c37;
+    margin-left: 5px;
+}
+.second-section{
+    margin-top: 300px;
+}
+.left-side-pic-container{
+    padding: 0 0 0 5%;
+    position: relative;
+}
+.second-side-image-container {
+    border: 3px solid #fb4c37;
+    height: 900px;
+    border-radius: 2%;
+    width: 600px;
+    margin: none; 
+}
+.second-side-image-container img{
+    margin-left: -5%;
+    padding-top: 5%;
+}
+.sponsors-container{
+    background-color: #EE2F5B;
+    border: 1px solid white;
+    width: 250px ;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -8%;
+    left: -7%;
+}
+.sponsors-container h1{
+    font-size: 55px;
+    font-weight: 900;
+    color: white;
+}
+.sponsors-container h1 span{
+    vertical-align: super;
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.sponsors-container p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.brand-promo h5{
+    font-weight: bolder;
+    font-size: 17.5px;
+    color: #C03E7D;
+    letter-spacing: 5px;
+}
+.brand-promo h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+}
+.brand-promo p{
+    color: white;
+    font-weight: bold;
+    margin-top: 3%;
+}
+.sponsorship-benefits i{
+    font-size: 50px;
+    color: white;
+}
+.sponsorship-benefits span span{
+    font-size: 23px;
+    color: white;
+    font-weight: bolder;
+}
+.sponsorship-benefits p{
+    color: white;
+    font-size: 15px;
+}
+@media (max-width:769px) {
+    .checkbtn {
+        display: block;
+        position: absolute;
+        top: 25%;
+        transform: translateY(-50%);
+    }
+
+    nav {
+        position: relative;
+        justify-content: center;
+        
+    }
+    
+    .navs {
+        position: fixed;
+        top: -100%; /* Start off-screen when hidden */
+        left: 0;
+        width: 100%;
+        background-color: rgba(224, 30, 30, 0.8);
+        flex-direction: column;
+        justify-content: center;
+        transition: all 0.3s ease;
+        padding-top: 20px;
+
+    }
+
+    #check:checked ~ .navs {
+        top: 80px; /* Match this with the initial 'top' value */
+    }
+
+  
+    .closebtn {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 20px;
+    }
+
+    .navs li {
+        margin: 3px;
+        font-size: smaller;
+        text-align: left;
+    }
+    .gradient
+    {
+        position: relative;
+    
+    }
+    .bi-search{
+        position: absolute;
+        left: 60px;
+        
+
+        color: white;
+
+    }
+    .writeups h4{
+        font-size: 18PX;    
+        color: white;
+    }
+    h2{
+        color: white;
+        font-size: 70px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .writeups p{
+        color: white;
+        font-size: 14px;
+    }
+    .ticket{
+        margin-bottom: 15px;
+    }
+    .ticket-video{
+        font-size: 10px;
+
+    }
+    .video-player{
+        margin-top: 20px;
+    }
+    .counter-container{
+        height: 600px;
+    }
+    
+    .info-box{
+        margin-top: 25px;
+        height:120px;
+    }
+    .first-section{
+        margin: 0;
+    }
+    .first-section p{
+        color: white;
+        font-size: 13px;
+    }
+    #about-text{
+        color: #EE2F5B;
+        font-size: small;
+    }
+    .first-section h3{
+        font-size: 35px;
+
+    }
+    .smfest-info{
+        order: 2;
+        margin: 20px 0 0 0;
+    }
+    
+    .side-pic-container{
+        order: 1;
+        padding: 0 0 0 5%;
+    }
+    .first-side-image-container{
+        height: 350px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .first-side-image-container div img{
+        height: 320px;
+        padding: 0;
+        margin-left: -3%;
+        width: 800px
+    }
+    .years-of-execellence{
+        bottom: -15%;
+        right: -3%;
+        height: 100px;
+
+    }
+    .second-section{
+        margin-top: 100px;
+    }
+    .left-side-pic-container{
+        padding: 0;
+    }
+
+    .second-side-image-container{
+        height:500px;
+        width: 345px;
+    }
+    .second-side-image-container img{
+        height: 500px;
+        margin-left: -1%;
+
+    }
+.sponsors-container{
+    left: -2%;
+    width: 210px;
+    height: 130px;
+}
+}
