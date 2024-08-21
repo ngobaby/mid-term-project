@@ -378,7 +378,15 @@ button.sponsor{
     color: white;
     font-family: 900;
 }
-
+#call-to-action{
+    color: #EE2F5B;
+    letter-spacing: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#volunteer{
+    font-size: 13px;
+}
 @media (max-width:769px) {
     .checkbtn {
         display: block;
@@ -546,5 +554,10 @@ button.sponsor{
 .sponsorship-benefits span{
     font-size: 20px;
 }
-
+#call-to-action{
+    color: #EE2F5B;
+    letter-spacing: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
 }
