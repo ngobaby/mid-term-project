@@ -236,8 +236,6 @@ button.read-more{
     align-items: center;
     justify-content: center;
     width: 170px;
-    margin-top: px;
-    position: relative;
     background-color: transparent;
     border: 2px  solid white;
     margin-top: 50px;
@@ -355,15 +353,32 @@ button.read-more{
     font-size: 50px;
     color: white;
 }
-.sponsorship-benefits span span{
-    font-size: 23px;
+.sponsorship-benefits span {
+    font-size: 24px;
     color: white;
     font-weight: bolder;
 }
 .sponsorship-benefits p{
     color: white;
-    font-size: 15px;
+    font-size: 14.5px;
+    font-weight: bolder;
 }
+button.sponsor{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    background-color: transparent;
+    border: 2px  solid white;
+    margin-top: 50px;
+}
+.sponsor a{
+    text-decoration: none;
+    color: white;
+    font-family: 900;
+}
+
 @media (max-width:769px) {
     .checkbtn {
         display: block;
@@ -516,4 +531,20 @@ button.read-more{
     width: 210px;
     height: 130px;
 }
+.brand-promo h5{
+    font-size: 12px;
+}
+.brand-promo h1{
+    font-size: 30px;
+}
+.brand-promo p{
+    font-size: 13px;
+}
+.sponsorship-benefits p{
+    font-size: 13px;
+}
+.sponsorship-benefits span{
+    font-size: 20px;
+}
+
 }
