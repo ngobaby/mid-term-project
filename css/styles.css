@@ -1,5 +1,5 @@
 body {
-    min-height: 400vh;
+    min-height: 900vh;
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #08003C;
@@ -387,6 +387,78 @@ button.sponsor{
 #volunteer{
     font-size: 13px;
 }
+.third-section{
+    margin-top: 200px;
+}
+.fourth-section{
+    margin-top: 200px;
+}
+.exhibit-container .exhibit{
+    display: flex;
+    justify-content: space-between;
+}
+.exhibit h1{
+    font-size: 55px;
+    color: white;
+    font-weight: 900;
+}
+.exhibit i{
+    color: #EE2F5B;
+    font-size: 75px;
+}
+.first-carousel-container p{
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 25px 0;
+}
+.carousel-item img{
+    width: 50%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+
+    display: flex;            /* Center the icon inside the button */
+    align-items: center;      /* Center the icon vertically */
+    justify-content: center;  
+    width: 50px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #df2771;       
+    width: 30px;
+    height: 30px;
+    padding:5px 10px;
+    border-radius: 50%;
+
+}
+.fourth-section .col-12 div.first-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-section .smfest-speakers{
+    letter-spacing: 10px;
+    color: #C03E7D;
+    font-weight: 900;
+    font-size: 15px;
+}
+.fourth-section h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 12px;
+}
+.fourth-section .review{
+    font-size: 15px;
+    font-size: 900;
+    color: white;
+}
+.second-carousel-container img{
+    height: 800px;
+    width: 400px;
+}
 @media (max-width:769px) {
     .checkbtn {
         display: block;
@@ -559,5 +631,48 @@ button.sponsor{
     letter-spacing: 5px;
     font-size: 12px;
     text-transform: uppercase;
+}
+.third-section{
+    margin-top: 130px;
+}
+.fourth-section{
+    margin-top: 100px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 250px;
+}
+.fourth-section .col-12 .first-col{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-section .smfest-speakers{
+    letter-spacing: 5px;
+    color: #C03E7D;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.fourth-section h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 12px;
+    padding: 0;
+
+}
+.fourth-section .review{
+    font-size: 11px;
+    font-weight: 900;
+    color: white;
+    padding: 0;
+    
+}
+.second-carousel-container img{
+    height: 250px;
 }
 }
